@@ -76,6 +76,12 @@ public class DemoProgram {
 
         }
         System.out.println("countVowels = " + countVowels);
+        String str = "abc, def, ijk, lmn";
+        String[] splitInStringArray = str.split(",");
+        for (int i = 0; i < splitInStringArray.length; i++) {
+            System.out.println(splitInStringArray[i].trim());
+        }
+
     }
 
 }
